@@ -5,7 +5,7 @@ window.onpageshow = function (e) {
     }
 }
 
-app = angular.module("locbreak", []);
+app = angular.module("locbreak", ['ngRoute']);
 
 app.config(function ($routeProvider) {
     $routeProvider
